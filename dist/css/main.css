@@ -318,6 +318,46 @@
   .projects__items {
     grid-template-columns: repeat(2, 1fr);
   }
+  .projects .text-secondary {
+    font-size: 3rem;
+  }
+  .contact__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .about__bio {
+    font-size: 2rem;
+  }
+  .projects__bio-image {
+    height: 50vh;
+  }
+  .projects__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .projects .text-secondary {
+    font-size: 4rem;
+  }
+  .contact__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .about__bio {
+    font-size: 3rem;
+  }
+  .projects__bio-image {
+    height: 60vh;
+  }
+  .projects__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .projects .text-secondary {
+    font-size: 5rem;
+  }
+  .contact__list {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 body {
   background-color: #272727;
